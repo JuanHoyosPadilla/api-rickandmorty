@@ -56,7 +56,7 @@ function App() {
         <Personajes personajes={filterItem} getData={getData} />
       )}
       <div className="paginacion">
-        <button onClick={() => setPagina(pagina-1)}>-</button>
+        <button className={pagina <= 1 && 'bloquear'} onClick={() => setPagina(pagina-1)}>-</button>
         <span>{pagina}</span>
         <button onClick={() => setPagina(pagina+1)}>+</button>
       </div>
