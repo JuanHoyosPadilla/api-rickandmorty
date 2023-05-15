@@ -1,0 +1,66 @@
+.container-personaje{
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.215);
+    box-shadow: 5px 5px 20px 0px rgba(81, 226, 14, 0.126);
+    cursor: pointer;
+   
+}
+.container-personaje:hover{
+    transform: scaleZ(0.9);
+    background-color: rgba(0, 0, 0, 0.475);
+}
+img{
+    object-fit: cover;
+    width:100%;
+    height:70%;
+    
+}
+.name {
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 900;
+    color: rgb(3, 90, 11);
+    
+}
+.status {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 2px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    width: 50px;
+    height: 20px;
+    color: black;
+}
+
+.alive {
+    background-color: rgb(25, 255, 5);
+   
+}
+
+.dead{
+    background-color: red;
+}
+
+.unknown{
+    background-color: gray;
+}
+
+.location {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: 900;
+    color: rgba(194, 191, 191, 0.655);
+}
