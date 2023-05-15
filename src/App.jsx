@@ -57,6 +57,7 @@ function App() {
       )}
       <div className="paginacion">
         <button onClick={() => setPagina(pagina-1)}>-</button>
+        <span>{pagina}</span>
         <button onClick={() => setPagina(pagina+1)}>+</button>
       </div>
     </div>
